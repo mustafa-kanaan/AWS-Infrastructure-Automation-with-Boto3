@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.env
+venv/
+.venv/
+
+# AWS credentials (NEVER commit these)
+.aws/
+*.pem
+*.key
+
+# IDE files
+.idea/
+.vscode/
+*.iml
