@@ -12,6 +12,7 @@ This project programmatically builds a complete AWS environment from scratch —
 ## Architecture Overview
 
 [![AWS Infrastructure Architecture](assets/architecture.png)](assets/architecture.png)
+
 ```
 
 **Traffic Flow:** `Users → ALB (public subnets) → EC2 Instances (private subnets) → RDS Multi-AZ (private subnets)`
