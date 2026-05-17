@@ -11,7 +11,7 @@ This project programmatically builds a complete AWS environment from scratch —
 ```
 ## Architecture Overview
 
-[![AWS Infrastructure Architecture](assets/architecture.png)](assets/architecture.png)
+![AWS Infrastructure Architecture](assets/architecture.png)
 
 ```
 
