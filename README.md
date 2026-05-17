@@ -8,12 +8,11 @@
 
 This project programmatically builds a complete AWS environment from scratch — no manual console clicks required. The infrastructure follows AWS Well-Architected Framework principles: public/private subnet isolation, high availability across two Availability Zones, encrypted storage, and least-privilege security group rules.
 
-```
 ## Architecture Overview
 
 ![AWS Infrastructure Architecture](assets/architecture.png)
 
-```
+
 
 **Traffic Flow:** `Users → ALB (public subnets) → EC2 Instances (private subnets) → RDS Multi-AZ (private subnets)`
 
